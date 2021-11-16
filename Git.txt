@@ -1,0 +1,26 @@
+  516  git init
+  517  git status
+  518  git add .
+  519  git status
+  520  history
+  521  clear
+  522  git status
+  523  git commit -am "stukje tekst"
+  524  git status
+  525  git add .
+  526  git commit -am "nieuwe omschrijving"
+  527  git log
+  528  git status
+  529  git remote add origin https://github.com/FelixvL/demogitolc2111.git
+  530  git push
+  531  git push -u origin master
+  532  git status
+  533  git add .
+  534  git commit -am "derde opmerking"
+  535  git push
+  536  git add . && git commit -am "vijfde" && git push
+  537  git add . && git commit -am "zesde" && git push
+  538  history
+
+git push -u origin master
+

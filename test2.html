@@ -1,0 +1,22 @@
+<script>
+    function ffchecken(){
+        hetgeenikinvoer = document.getElementById("deinvoer").value;
+        alert(hetgeenikinvoer);
+        if(hetgeenikinvoer < 10  && hetgeenikinvoer > 0 && anderfunctie(hetgeenikinvoer)){
+            alert("actie");
+        }else{
+            alert("geen actie");
+        }
+    }
+    function anderfunctie(parameter){
+        // statements
+        return true;
+    }
+</script>
+
+<input type=text id=deinvoer>
+<button onclick=ffchecken()>iets</button>
+
+// 1 validation op het veld (html)
+// 2 if statetements  aldan niet met externe functies
+// 3 regular expressions

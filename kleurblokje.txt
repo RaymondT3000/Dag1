@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv content>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opdracht</title>
+</head>
+
+    <style>
+        div{
+         background-color: yellow;
+         width: 100px;
+         height: 100px;
+         display: inline-block;
+    }
+    </style>
+    <script>        //model[0]
+        var model = [0,1,1,0];
+        function kleurblokje(blok, hoeveelste){
+                if(model[hoeveelste]==0){
+                    blok.style.backgroundColor = 'red';
+                }else{
+                    blok.style.backgroundColor = 'blue';
+                        
+                }
+        }
+        function peer(piet){        
+            for(var x = 0; x <model.length; x++){ 
+                (model[x]==1);piet.style.backgroundColor = 'blue';
+            }
+        }
+
+    </script>
+<body>
+<div onclick="kleurblokje(this,0)"></div>
+<div onclick="kleurblokje(this,1)"></div>
+<div onclick="kleurblokje(this,2)"></div>
+<div onclick="kleurblokje(this,3)"></div>
+</body>
+</html>
